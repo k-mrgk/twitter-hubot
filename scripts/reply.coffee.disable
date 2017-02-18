@@ -1,0 +1,3 @@
+module.exports = (robot) ->
+    robot.respond /(ぬるぽ|NullPointerException)/i, (tweet) ->
+        tweet.reply "ガッ"
