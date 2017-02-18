@@ -19,7 +19,7 @@ client = new Twitter({
 
 module.exports = (robot) ->
   job = new cronJob(
-    cronTime: "00 *10 * * * *"
+    cronTime: "*/10 * * * *"
     start: true
     onTick: ->
       client.get 'statuses/home_timeline', {count: 300}, (err, tweets, response) =>
