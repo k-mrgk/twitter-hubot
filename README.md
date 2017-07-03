@@ -1,7 +1,7 @@
 # twitter-hubot
 
 Hubot製のTwitter botです．
-[ここ](https://twitter.com/nu____bot)で動いてます．
+
 
 ## 機能
 
